@@ -1,0 +1,35 @@
+.order {
+    max-width: 1160px;
+    padding-top: 56px;
+    background-color: #00bafc;
+    padding-bottom: 64px;
+}
+
+.order-title {
+    color: #fff;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.input {
+    border: none;
+    margin: 8px;
+    padding: 16px 222px 16px 16px;
+    background: #f3f3f3;
+    border-radius: 5px;
+}
+
+.form-btn {
+    margin: 16px  0  24px 0;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}

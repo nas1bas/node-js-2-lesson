@@ -1,0 +1,47 @@
+@import "./assets/scss/fonts.scss";
+@import "./components/Header/header.scss";
+@import "./components/Hero/hero.scss";
+@import "./components/Sevice/service.scss";
+@import "./components/Work/work.scss";
+@import "./components/Order/order.scss";
+@import "./components/footer/footer.scss";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: "Open Sans", "Arial", sans-serif;
+    background: #eeeeee;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.blue-btn {
+    border: none;
+    background: #00bafc;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+    background-color: #00bafc;
+    cursor: pointer;
+}
+
+.blue-btn:hover {
+    opacity: 0.7;
+}
+
+.blue-btn:active {
+    opacity: 0.4;
+}
